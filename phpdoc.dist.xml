@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>DSP Yii Components</title>
+	<parser>
+		<default-package-name>DreamFactory\Yii</default-package-name>
+		<target>build/doc</target>
+	</parser>
+	<transformer>
+		<target>build/doc</target>
+	</transformer>
+	<files>
+		<directory>src/</directory>
+		<ignore>tests/*</ignore>
+		<ignore>vendor/*</ignore>
+	</files>
+	<transformations>
+		<template name="responsive-twig" />
+	</transformations>
+</phpdoc>
